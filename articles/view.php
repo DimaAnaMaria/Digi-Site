@@ -8,9 +8,6 @@ $ArticleModel = new ArticleModel();
 $id = isset($_GET['id']) ? $_GET['id'] : 0;
 $Article=$ArticleModel->get($id);
 
-var_dump($Article);
-
-
 require_once '../bootstrap/header.php';  // Include navbarul și head-ul
 ?>
 <section>
